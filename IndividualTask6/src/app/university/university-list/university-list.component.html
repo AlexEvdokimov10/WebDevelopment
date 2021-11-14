@@ -1,0 +1,8 @@
+<h2>
+  University list:
+</h2>
+<ul class="phrases">
+  <li *ngFor="let univer of universities" (click)="selectUniver(univer.id)">
+      {{univer.name}}
+  </li>
+</ul>
